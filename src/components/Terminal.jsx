@@ -45,7 +45,7 @@ class Terminal extends React.Component {
             timer1Stop = true;
         }, 2500);
 
-        let greetingsStr = "> Hello! I am Guannan Lyu, welcome to my portfolio terminal. To see a list of commands, type 'help'.";
+        let greetingsStr = "> Hello! I am Korrakot Triwichian, welcome to my portfolio terminal. To see a list of commands, type 'help'.";
         let greetingsArr = greetingsStr.split("");
         let i = 0;
         setTimeout(() => {
@@ -77,7 +77,7 @@ class Terminal extends React.Component {
                         Loading<br />Terminal{this.state.terminalLoadingEllipsis}
                     </div>
                 </div>
-                <p className="terminalTitle">KORRAKOT'S TERMINAL VERSION 2.077 BETA - ALL RIGHTS RESERVED</p>
+                <p className="terminalTitle">KORRAKOT'S TERMINAL PORTFOLIO COMMAND LINE - PIXEL TERMINAL 8 BIT </p>
                 <p className="greetingsIntro">{this.state.introStringGrowing}</p>
                 <CurrentListedItems></CurrentListedItems>
                 <CommandInput></CommandInput>
