@@ -1,0 +1,143 @@
+#contact {
+    margin-top: 75px;
+}
+
+#contact-links {
+    width: 70%;
+    margin-bottom: 20px;
+    padding: 1rem 1rem 0rem 1rem;
+    background-color: #33bbff;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#contact-links i {
+    font-size: 22px;
+    color: darkblue;
+}
+
+#contact-links a {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    color: darkred;
+    text-decoration: none;
+    transform: translateY(-6px);
+}
+
+#contact-links a:hover {
+    color: red;
+}
+
+span.email-desktop {
+    display: inline;
+}
+
+span.email-mobile {
+    display: none;
+}
+
+span.phone-desktop {
+    display: inline;
+}
+
+span.phone-mobile {
+    display: none;
+}
+
+#divider-text {
+    margin: 15px 0px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#online-msg .part1 {
+    display: block;
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#online-msg .part1-mobile {
+    display: none;
+}
+
+#online-msg .part2 {
+    display: block;
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#online-msg .part2-mobile {
+    display: none;
+}
+
+#online-msg .part3 {
+    width: 85%;
+    margin-bottom: 10px;
+}
+
+#online-msg .part2 textarea {
+    max-height: 300px;
+    min-height: 100px;
+}
+
+#online-msg .part3 button {
+    width: 40%;
+    position: relative;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+@media only screen and (max-width: 800px) {
+    #contact-links {
+        width: 98%;
+        margin-bottom: 20px;
+        padding: 1rem 1rem 0rem 1rem;
+        background-color: #33bbff;
+        font-size: 14px;
+    }
+    span.email-desktop {
+        display: none;
+    }
+    span.email-mobile {
+        display: inline;
+    }
+    span.phone-desktop {
+        display: none;
+    }
+    span.phone-mobile {
+        display: inline;
+    }
+    #online-msg .part1 {
+        display: none;
+    }
+    #online-msg .part1-mobile {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 14px;
+    }
+    #online-msg .part2 {
+        display: none;
+    }
+    #online-msg .part2-mobile {
+        display: block;
+        font-size: 14px;
+    }
+    #online-msg .part3 button {
+        width: 70%;
+        position: relative;
+        top: 0px;
+        left: 50%;
+        font-size: 14px;
+        transform: translateX(-40%);
+    }
+    #divider-text {
+        font-size: 14px;
+    }
+}

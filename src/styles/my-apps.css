@@ -1,0 +1,89 @@
+#my-apps {
+    margin-top: 75px;
+}
+
+#my-apps .title {
+    transform: translateY(-8px);
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#my-apps a {
+    display: inline-block;
+    color: darkred;
+    text-decoration: none;
+}
+
+#my-apps a:hover {
+    color: red;
+}
+
+#my-apps i {
+    font-size: 22px;
+    color: darkblue;
+}
+
+#my-apps span {
+    float: right;
+}
+
+.side-app {
+    width: 85%;
+    background-color: orange;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.app-img-frame {
+    width: 150px;
+    height: 130px;
+    float: left;
+}
+
+.app-img-frame:hover img {
+    transform: rotate(360deg);
+}
+
+.app-item {
+    margin-bottom: 20px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.app-item img {
+    border-radius: 10%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.app-info {
+    display: flow-root;
+    padding-left: 10px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+@media only screen and (max-width: 800px) {
+    .app-img-frame {
+        display: none;
+    }
+    .side-app {
+        width: 98%;
+        padding: 0.5rem!important;
+    }
+    .app-info {
+        padding-left: 0px;
+        font-size: 12px;
+    }
+    #my-apps .title {
+        font-size: 14px;
+    }
+    .app-item {
+        margin-bottom: 40px;
+    }
+}

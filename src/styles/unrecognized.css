@@ -1,0 +1,24 @@
+#unrecognized {
+    color: red;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.fa-rocket {
+    font-size: 22px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+@media only screen and (max-width: 800px) {
+    #unrecognized {
+        font-size: 12px;
+    }
+    .fa-rocket {
+        font-size: 14px;
+    }
+}

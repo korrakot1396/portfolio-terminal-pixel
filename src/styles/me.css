@@ -1,0 +1,55 @@
+#me {
+    position: relative;
+    display: flow-root;
+    width: 85%;
+    background-color: #33bbff;
+    margin-top: 75px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#me .title {
+    transform: translateY(-8px);
+}
+
+#my-img-frame {
+    float: left;
+    height: 150px;
+    padding: 0px;
+    perspective: 1000px;
+    transform-style: preserve-3d;
+}
+
+#my-img-frame img {
+    border-radius: 10px;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.1s;
+    box-shadow: 5px 2px #333333;
+}
+
+#my-img-frame:hover img {
+    transform: scale(1.05);
+}
+
+#self-description {
+    padding-left: 200px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+@media only screen and (max-width: 800px) {
+    #me {
+        width: 98%;
+        font-size: 12px;
+        padding: 0.5rem;
+    }
+    #my-img-frame {
+        display: none;
+    }
+    #self-description {
+        padding-left: 0px;
+    }
+}

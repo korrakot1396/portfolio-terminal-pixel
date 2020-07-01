@@ -1,0 +1,35 @@
+#my-exp {
+    margin-top: 75px;
+}
+
+#my-exp .title {
+    transform: translateY(-8px);
+}
+
+.experience {
+    width: 85%;
+    background-color: coral;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.exp-item {
+    margin-bottom: 20px;
+}
+
+.exp-item p.title {
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+@media only screen and (max-width: 800px) {
+    .experience {
+        width: 98%;
+        font-size: 12px;
+    }
+    .exp-item p.title {
+        font-size: 12px!important;
+    }
+}

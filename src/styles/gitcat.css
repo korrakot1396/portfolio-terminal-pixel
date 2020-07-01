@@ -1,0 +1,53 @@
+#guannan-cat-container {
+    position: absolute;
+    right: 8vw;
+    top: 0vh;
+    z-index: 10;
+    opacity: 0;
+    animation-name: cat-jump-in;
+    animation-duration: 500ms;
+    animation-fill-mode: both;
+    animation-timing-function: ease;
+    animation-delay: 3000ms;
+}
+
+#cat-dialog {
+    position: absolute;
+    top: -90px;
+    left: -200px;
+    width: 275px;
+    height: 80px;
+    padding: 3px;
+    background-color: white;
+    overflow: hidden;
+    text-align: center;
+}
+
+#cat-dialog:hover {
+    background-color: yellow;
+}
+
+@keyframes cat-jump-in {
+    0% {
+        opacity: 0;
+        top: 0vh;
+    }
+    50% {
+        top: 35vh;
+        opacity: 0.8;
+    }
+    75% {
+        top: 30vh;
+        opacity: 0.9;
+    }
+    100% {
+        top: 35vh;
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #guannan-cat-container {
+        display: none;
+    }
+}

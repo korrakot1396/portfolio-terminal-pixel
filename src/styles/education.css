@@ -1,0 +1,56 @@
+#my-edu {
+    margin-top: 75px;
+}
+
+.education {
+    display: flow-root;
+    width: 85%;
+    background-color: yellowgreen;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.school-img-frame {
+    width: 200px;
+    height: 130px;
+    float: left;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.school-item img {
+    border-radius: 50%;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.school-img-frame:hover img {
+    transform: rotate(360deg) scale(1.1);
+}
+
+.school-info {
+    padding-left: 100px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.school-item {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:800px) {
+    .education {
+        width: 98%;
+        font-size: 12px;
+    }
+    .school-img-frame {
+        display: none;
+    }
+    .school-info {
+        padding-left: 0px;
+    }
+}

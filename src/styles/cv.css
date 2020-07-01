@@ -1,0 +1,45 @@
+#cv {
+    width: 50%;
+    margin-top: 75px;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+#cv i {
+    font-size: 22px;
+    color: darkblue;
+}
+
+#cv a {
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 0px;
+    color: darkred;
+    text-decoration: none;
+}
+
+#cv a:hover {
+    color: red;
+}
+
+span.cv-desktop {
+    display: inline;
+}
+
+span.cv-mobile {
+    display: none;
+}
+
+@media only screen and (max-width: 800px) {
+    #cv {
+        width: 98%;
+        font-size: 16px;
+    }
+    span.cv-desktop {
+        display: none;
+    }
+    span.cv-mobile {
+        display: inline;
+    }
+}
