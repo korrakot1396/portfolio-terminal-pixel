@@ -77,7 +77,7 @@ class Terminal extends React.Component {
                         Loading<br />Terminal{this.state.terminalLoadingEllipsis}
                     </div>
                 </div>
-                <p className="terminalTitle">GUANNAN'S TERMINAL VERSION 2.077 BETA - ALL RIGHTS RESERVED</p>
+                <p className="terminalTitle">KORRAKOT'S TERMINAL VERSION 2.077 BETA - ALL RIGHTS RESERVED</p>
                 <p className="greetingsIntro">{this.state.introStringGrowing}</p>
                 <CurrentListedItems></CurrentListedItems>
                 <CommandInput></CommandInput>
